@@ -1,6 +1,6 @@
 import type { Scorer } from 'autoevals';
 
-export const TooCallMatch: Scorer<any, {}> = async ({
+export const ToolCallMatch: Scorer<any, {}> = async ({
   input,
   output,
   expected,
